@@ -32,13 +32,13 @@ function Hero() {
                 filter: 'drop-shadow(0 0 30px rgba(255,255,255,0.5))'
               }}
             >
-              Zishan & Shireen
+              Shahbaz & Shazia
             </text>
           </svg>
         </div>
         <Countdown />
         <p className="mt-6 mb-4 text-white/90 font-light tracking-wide italic">
-          Sunday • 05 July, 2026 • 8:00 PM
+          Thursday • 19 November, 2026 • 8:00 PM
         </p>
         <p className="mb-12 font-cook text-2xl text-white">Your presence will make our day even more memorable!</p>
         <div className='flex items-center justify-center'>

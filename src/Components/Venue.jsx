@@ -3,10 +3,10 @@
 import FloralBottom from '../assets/floral-bottom.png';
 
 const VenueSection = () => {
-  const venueAddress = "Onda Marriage Hall, Tripolia, Alamganj, Patna";
+  const venueAddress = "Kisan Paradise Hall, Phulwari Sharif, Patna";
   
   // Update this 'pb' string with the one from Google Maps 'Embed' code
-  const mapIframeSrc = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.7225622027186!2d85.18885927600948!3d25.614133777445037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5f336687ae5b%3A0xc597f695b3c40abb!2sOnda%20marriage%20hall!5e0!3m2!1sen!2sin!4v1778404524561!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade`;
+  const mapIframeSrc = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.839327066242!2d85.05526967539429!3d25.577011777468382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a94bf1511fbb%3A0xb844b9d9701c536c!2sKisan%20paradise%20Hall!5e0!3m2!1sen!2sin!4v1786193791312!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin`;
 
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(venueAddress)}`;
 
@@ -49,4 +49,4 @@ const VenueSection = () => {
   );
 };
 
-export default VenueSection; // Don't forget this!
+export default VenueSection;
