@@ -102,23 +102,19 @@
 /* Name handwriting animation */
 @keyframes drawText {
   0% {
-    stroke-dashoffset: 30000; /* Increased to 40k for the ultra-scale */
-    fill: rgba(255, 255, 255, 0);
-  }
-  20% {
     stroke-dashoffset: 30000;
     fill: rgba(255, 255, 255, 0);
   }
-  30% {
+  /* Drawing begins immediately, fill starts fading in around 25% */
+  25% {
     fill: rgba(255, 255, 255, 0);
+  }
+  30% {
+    fill: rgba(255, 255, 255, 0.3);
   }
   45% {
     fill: rgba(255, 255, 255, 1);
   }
-  /* 90% {
-    stroke-dashoffset: 0;
-    fill: rgba(255, 255, 255, 1);
-  } */
   100% {
     stroke-dashoffset: 0;
     fill: rgba(255, 255, 255, 1);
